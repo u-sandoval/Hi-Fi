@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | MySite</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 text-white px-6 py-4 shadow flex justify-between items-center">
+    <div class="text-xl font-bold">E-Learning Deliverable</div>
+    <div class="flex space-x-6">
+      <a href="index.html" class="hover:text-gray-300">Home</a>
+      <a href="about.html" class="hover:text-gray-300">About</a>
+      <a href="contact.html" class="hover:text-gray-300">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="p-8">
+    <section class="max-w-4xl mx-auto my-12 p-6 bg-white shadow rounded-lg">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">What is ChatGPT?</h2>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+          ChatGPT is an AI-powered language model developed by OpenAI. It's designed to understand natural language prompts and generate human-like responses. Built on top of the GPT (Generative Pre-trained Transformer) architecture, ChatGPT has been trained on a vast corpus of internet text to provide helpful, informative, and contextually relevant replies across a wide range of topics.
+        </p>
+      
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">How does it work?</h3>
+        <p class="text-gray-700 leading-relaxed">
+          ChatGPT works by predicting the next word in a sentence based on the words that came before. During its training phase, it learned to understand grammar, context, facts, and even reasoning patterns. When you ask a question, ChatGPT uses its trained neural network to generate a relevant and coherent response — all in real time. It's like autocomplete on steroids, with deep contextual understanding!
+        </p>
+      </section>
+      <!-- Ethics & Knowledge Check Section -->
+    <section class="max-w-6xl mx-auto my-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- LEFT BOX: Ethics Section -->
+        <div class="bg-white shadow rounded-lg p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Understanding Ethics</h2>
+        <p class="text-gray-700 mb-6">
+            Ethics refers to the moral principles that govern a person's behavior or the conducting of an activity. In the context of AI and education, ethics helps guide responsible and fair use of technology.
+            <a href="ethics.html" class="text-blue-600 underline ml-2">Learn more</a>
+        </p>
+    
+        <!-- 🔽 Dropdown 1 -->
+        <details class="mb-4">
+            <summary class="cursor-pointer font-semibold text-blue-700">📌 Data Privacy</summary>
+            <p class="mt-2 text-gray-600">
+            Data privacy involves protecting sensitive user data from misuse, unauthorized access, or exposure, especially when interacting with AI systems like ChatGPT.
+            </p>
+        </details>
+    
+        <!-- 🔽 Dropdown 2 -->
+        <details class="mb-4">
+            <summary class="cursor-pointer font-semibold text-blue-700">📌 Academic Honesty</summary>
+            <p class="mt-2 text-gray-600">
+            Students should use ChatGPT to support learning, not to replace their own work or plagiarize. Ethical use means using AI as a guide, not a shortcut.
+            </p>
+        </details>
+    
+        <!-- 🔽 Dropdown 3 -->
+        <details>
+            <summary class="cursor-pointer font-semibold text-blue-700">📌 University AI Policies</summary>
+            <p class="mt-2 text-gray-600">
+            Many universities provide guidelines or policies on how AI tools should be used in coursework. It’s essential to follow these rules to maintain academic integrity.
+            </p>
+        </details>
+        </div>
+    
+        <!-- ✅ RIGHT BOX: Knowledge Check -->
+        <div class="bg-white shadow rounded-lg p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Knowledge Check</h2>
+        <p class="text-gray-700 mb-4">Which of the following best describes ethical use of ChatGPT in academic settings?</p>
+    
+        <form class="space-y-4">
+            <label class="block">
+              <input type="radio" name="q1" value="A" class="mr-2" />
+              A. Submitting ChatGPT-generated answers as your own.
+            </label>
+            <label class="block">
+              <input type="radio" name="q1" value="B" class="mr-2" />
+              B. Using ChatGPT to understand concepts before writing your own response.
+            </label>
+            <label class="block">
+              <input type="radio" name="q1" value="C" class="mr-2" />
+              C. Asking ChatGPT to complete take-home exams for you.
+            </label>
+            <label class="block">
+              <input type="radio" name="q1" value="D" class="mr-2" />
+              D. Copying and pasting ChatGPT text without citation.
+            </label>
+          
+            <button type="submit" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+              Submit Answer
+            </button>
+          </form>
+          
+        </div>
+    </section>
+  
+    <!-- 📈 Productivity Tools Section -->
+    <section class="max-w-6xl mx-auto my-12 p-6 bg-white shadow rounded-lg">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Productivity Tools</h2>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+        ChatGPT isn't just for answering questions — it can be a powerful productivity assistant. From planning your study sessions to summarizing lecture notes and organizing your daily tasks, ChatGPT can streamline your academic life and save you time.
+        </p>
+    
+        <!-- 🔽 Time Management -->
+        <details class="mb-6">
+        <summary class="cursor-pointer font-semibold text-blue-700 text-lg">🕒 Time Management</summary>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Column 1 -->
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Sample Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Help me create a weekly study schedule."</li>
+                <li>"Suggest a daily routine for balancing school and work."</li>
+                <li>"Create a Pomodoro-style focus plan for today."</li>
+            </ul>
+            </div>
+            <!-- Column 2 -->
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Workflow</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>Input availability + goals</li>
+                <li>Let ChatGPT build a draft plan</li>
+                <li>Refine based on personal needs</li>
+            </ul>
+            </div>
+            <!-- Column 3 -->
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Demo Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Plan a balanced week with 3 classes and part-time work."</li>
+                <li>"Suggest a 2-hour evening study routine."</li>
+                <li>"Distribute my study time for three subjects."</li>
+            </ul>
+            </div>
+        </div>
+        </details>
+    
+        <!-- 🔽 Note Summarizing -->
+        <details class="mb-6">
+        <summary class="cursor-pointer font-semibold text-blue-700 text-lg">📝 Note Summarizing</summary>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Sample Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Summarize this lecture transcript."</li>
+                <li>"Turn this article into bullet points."</li>
+                <li>"Give me a TL;DR of these class notes."</li>
+            </ul>
+            </div>
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Workflow</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>Paste notes or transcript</li>
+                <li>Specify format (summary, bullets, Q&A)</li>
+                <li>Review and adjust as needed</li>
+            </ul>
+            </div>
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Demo Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Convert this biology lecture into key takeaways."</li>
+                <li>"Extract main arguments from this article."</li>
+                <li>"Summarize these slides in bullet form."</li>
+            </ul>
+            </div>
+        </div>
+        </details>
+    
+        <!-- 🔽 Study Planning -->
+        <details>
+        <summary class="cursor-pointer font-semibold text-blue-700 text-lg">📚 Study Planning</summary>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Sample Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Create a 2-week exam prep plan."</li>
+                <li>"Help me break this chapter into study chunks."</li>
+                <li>"Build a flashcard quiz plan for 3 topics."</li>
+            </ul>
+            </div>
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Workflow</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>Input exam date + topics</li>
+                <li>Let ChatGPT map timeline</li>
+                <li>Track progress daily/weekly</li>
+            </ul>
+            </div>
+            <div>
+            <h3 class="font-semibold text-gray-800 mb-2">Demo Prompts</h3>
+            <ul class="list-disc text-sm text-gray-700 ml-4">
+                <li>"Plan out 10 days to study Chapters 1–5."</li>
+                <li>"What should I review 3 days before my test?"</li>
+                <li>"Split 20 flashcards over 4 study sessions."</li>
+            </ul>
+            </div>
+        </div>
+        </details>
+    </section>
+  
+    <!-- 🧠 Use ChatGPT Intelligently Section -->
+    <section class="max-w-6xl mx-auto my-12 p-6 bg-white shadow rounded-lg">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Use ChatGPT Intelligently</h2>
+    
+        <!-- ⚠️ Incorrect Example -->
+        <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6">
+        <p class="font-semibold">❌ Incorrect AI-Generated Claim:</p>
+        <p class="mt-2">
+            "Marie Curie discovered the cure for cancer."
+        </p>
+        </div>
+    
+        <!-- 🔗 Article References -->
+        <div class="mb-8">
+        <p class="text-gray-700 font-semibold mb-2">🔍 Verified Sources That Disprove This Claim:</p>
+        <ul class="list-disc ml-6 text-blue-700 underline text-sm">
+            <li><a href="https://www.cancer.gov/about-cancer/understanding/what-is-cancer" target="_blank">What is Cancer? (National Cancer Institute)</a></li>
+            <li><a href="https://www.britannica.com/biography/Marie-Curie" target="_blank">Marie Curie Biography – Britannica</a></li>
+            <li><a href="https://www.scientificamerican.com/article/why-cancer-is-not-one-disease/" target="_blank">Why Cancer Is Not One Disease (Scientific American)</a></li>
+        </ul>
+        </div>
+    
+        <!-- ✅ Fact-Checking Checklist -->
+        <div>
+        <h3 class="text-xl font-semibold text-gray-800 mb-3">✅ AI Fact-Checking Checklist</h3>
+        <ul class="list-disc ml-6 text-gray-700 leading-relaxed space-y-2">
+            <li>Did I verify key facts using trusted sources (e.g., .edu, .gov, peer-reviewed)?</li>
+            <li>Does the claim appear on reputable websites or academic publications?</li>
+            <li>Have I checked for outdated information or model hallucination?</li>
+            <li>Did I compare the AI response with class materials or textbooks?</li>
+            <li>Did I consult a professor, TA, or trusted academic resource for confirmation?</li>
+        </ul>
+        </div>
+    </section>
+  
+  </main>
+
+</body>
+</html>
