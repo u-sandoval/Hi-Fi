@@ -221,21 +221,45 @@
         <ul class="list-disc ml-6 text-blue-700 underline text-sm">
             <li><a href="https://www.cancer.gov/about-cancer/understanding/what-is-cancer" target="_blank">What is Cancer? (National Cancer Institute)</a></li>
             <li><a href="https://www.britannica.com/biography/Marie-Curie" target="_blank">Marie Curie Biography – Britannica</a></li>
-            <li><a href="https://www.scientificamerican.com/article/why-cancer-is-not-one-disease/" target="_blank">Why Cancer Is Not One Disease (Scientific American)</a></li>
         </ul>
         </div>
     
         <!-- ✅ Fact-Checking Checklist -->
-        <div>
-        <h3 class="text-xl font-semibold text-gray-800 mb-3">✅ AI Fact-Checking Checklist</h3>
-        <ul class="list-disc ml-6 text-gray-700 leading-relaxed space-y-2">
-            <li>Did I verify key facts using trusted sources (e.g., .edu, .gov, peer-reviewed)?</li>
-            <li>Does the claim appear on reputable websites or academic publications?</li>
-            <li>Have I checked for outdated information or model hallucination?</li>
-            <li>Did I compare the AI response with class materials or textbooks?</li>
-            <li>Did I consult a professor, TA, or trusted academic resource for confirmation?</li>
-        </ul>
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">✅ AI Fact-Checking Checklist</h3>
+
+        <form id="checklist" class="space-y-3 text-gray-700 mb-4">
+          <label class="flex items-start space-x-3">
+            <input type="checkbox" class="check-item mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-blue-300">
+            <span>Did I verify key facts using trusted sources (e.g., .edu, .gov, peer-reviewed)?</span>
+          </label>
+          <label class="flex items-start space-x-3">
+            <input type="checkbox" class="check-item mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-blue-300">
+            <span>Does the claim appear on reputable websites or academic publications?</span>
+          </label>
+          <label class="flex items-start space-x-3">
+            <input type="checkbox" class="check-item mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-blue-300">
+            <span>Have I checked for outdated information or model hallucination?</span>
+          </label>
+          <label class="flex items-start space-x-3">
+            <input type="checkbox" class="check-item mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-blue-300">
+            <span>Did I compare the AI response with class materials or textbooks?</span>
+          </label>
+          <label class="flex items-start space-x-3">
+            <input type="checkbox" class="check-item mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-blue-300">
+            <span>Did I consult a professor, TA, or trusted academic resource for confirmation?</span>
+          </label>
+        </form>
+        
+        <!-- ✅ All Done Message -->
+        <div id="doneMessage" class="hidden bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded mb-4">
+          🎉 <strong>All done!</strong> You've completed the checklist.
         </div>
+        
+        <!-- 🔄 Reset Button -->
+        <button id="resetChecklist" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+          Reset Checklist
+        </button>
+        
     </section>
   
   </main>

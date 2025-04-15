@@ -38,3 +38,24 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   
+// Checklist logic
+document.addEventListener("DOMContentLoaded", () => {
+    const checkboxes = document.querySelectorAll(".check-item");
+    const doneMessage = document.getElementById("doneMessage");
+    const resetButton = document.getElementById("resetChecklist");
+  
+    function updateChecklistStatus() {
+      const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+      doneMessage.classList.toggle("hidden", !allChecked);
+    }
+  
+    checkboxes.forEach(cb => cb.addEventListener("change", updateChecklistStatus));
+  
+    resetButton.addEventListener("click", () => {
+      checkboxes.forEach(cb => cb.checked = false);
+      doneMessage.classList.add("hidden");
+    });
+  });
+  
+
+  
