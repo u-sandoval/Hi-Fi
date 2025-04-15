@@ -37,7 +37,7 @@ MySite is a simple, responsive web application designed to educate users about C
 ## Installation - USE VSCODE
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/mysite.git
+   git clone https://github.com/u-sandoval/Hi-Fi.git
 
 2. install Live Server VSCode Extension
 3. Click 'go live' on bottom right and webpage should run.
