@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help | MySite</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 text-white px-6 py-4 shadow flex justify-between items-center">
+    <div class="text-xl font-bold">MySite</div>
+    <div class="flex space-x-6">
+      <a href="index.html" class="hover:text-gray-300">Home</a>
+      <a href="about.html" class="hover:text-gray-300">About</a>
+      <a href="help.html" class="hover:text-gray-300">Help</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="p-8">
+    <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
+    <p class="mb-4">Feel free to reach out to any of the team members below:</p>
+    <ul class="list-disc ml-6 text-blue-600 underline">
+      <li><a href="mailto:usandova@gmu.edu">usandova@gmu.edu</a></li>
+      <li><a href="mailto:nsmith53@gmu.edu">nsmith53@gmu.edu</a></li>
+      <li><a href="mailto:awert@gmu.edu">awert@gmu.edu</a></li>
+      <li><a href="mailto:estruzik@gmu.edu">estruzik@gmu.edu</a></li>
+    </ul>
+
+    <!-- FAQ Section -->
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">Frequently Asked Questions (FAQ)</h2>
+      <div class="space-y-4">
+        <details class="bg-white shadow rounded-lg p-4">
+          <summary class="font-semibold text-gray-800">Where can I find the Virginia AI integration policy?</summary>
+          <p class="text-gray-700 mt-2">
+            You can find the Virginia AI integration policy in the following document:
+            <a href="https://www.education.virginia.gov/media/governorvirginiagov/secretary-of-education/pdf/AI-Education-Guidelines.pdf" target="_blank" class="text-blue-600 underline">
+              Guidelines for AI Integration Throughout Education in the Commonwealth of Virginia
+            </a>.
+          </p>
+        </details>
+        <details class="bg-white shadow rounded-lg p-4">
+          <summary class="font-semibold text-gray-800">Where can I find the GMU AI Guidelines?</summary>
+          <p class="text-gray-700 mt-2">
+            You can find the GMU AI Guidelines on the following website:
+            <a href="https://www.gmu.edu/ai-guidelines" target="_blank" class="text-blue-600 underline">
+              AI Guidelines
+            </a>.
+          </p>
+        </details>
+        <details class="bg-white shadow rounded-lg p-4">
+          <summary class="font-semibold text-gray-800">What is the purpose of this website?</summary>
+          <p class="text-gray-700 mt-2">
+            The purpose of this website is to guide new GMU students on the ethical and effective use of AI tools like ChatGPT in an academic setting. It aims to provide clear guidelines on how to integrate AI responsibly into their studies while maintaining academic integrity. By offering resources, examples, and FAQs, the site helps students understand the potential of AI as a learning aid rather than a shortcut. Ultimately, it encourages students to use AI to enhance their education while adhering to university policies.
+          </p>
+        </details>
+        <details class="bg-white shadow rounded-lg p-4">
+          <summary class="font-semibold text-gray-800">Who can I contact for more information?</summary>
+          <p class="text-gray-700 mt-2">
+            You can reach out to any of the team members listed above via email for more information or assistance.
+          </p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
